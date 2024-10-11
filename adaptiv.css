@@ -1,0 +1,323 @@
+@media (max-width: 1536px) {
+  .h1 {
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: left;
+  }
+  .content-main-01,
+  .content-main-02,
+  .content-main-03 {
+    height: 35vh;
+  }
+  .content-main-h,
+  .content-main-h3,
+  .content-main-h2 {
+    font-size: 44px;
+    line-height: 45.31px;
+  }
+  .text-content-01,
+  .text-content-02,
+  .text-content-03 {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 1024px) {
+  .menu {
+    display: none;
+  }
+  .h1 {
+    margin-top: 30px;
+    font-family: Playfair Display;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 100px;
+    text-align: left;
+  }
+
+  .main-card-01,
+  .main-card-02,
+  .main-card-03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10%;
+    padding: 3% 3%;
+    width: 100%;
+  }
+  .img-01,
+  .img-03 {
+    position: relative;
+  }
+  .img-02 {
+    position: relative;
+    top: -15%;
+    width: 100%;
+  }
+  .text-card,
+  .text-card-03 {
+    position: absolute;
+    height: 20vh;
+    font-family: Poppins;
+    font-size: 240px;
+    font-weight: 700;
+    line-height: 240px;
+    text-align: left;
+  }
+  .text-card-02 {
+    position: relative;
+    width: 30%;
+    margin-left: 3%;
+  }
+  .content-main-01,
+  .content-main-03 {
+    position: relative;
+    flex-direction: column;
+    margin-left: -7%;
+    top: 7%;
+    width: 100%;
+    height: 70vh;
+  }
+  .content-main-02 {
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -45%;
+    top: -7%;
+    width: 100%;
+    height: 100vh;
+  }
+  .content-main-h,
+  .content-main-h2,
+  .content-main-h3 {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: left;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30vh;
+  }
+  .footer-text {
+    position: relative;
+    top: 57px;
+    height: 15vh;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+  }
+  .copyright {
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+  }
+  .content-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25vh;
+  }
+  .links-text,
+  .links-2-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+  }
+  .links-2-text-h,
+  .links-text-h {
+    width: 220px;
+    height: 31.3px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+  }
+}
+@media (max-width: 768px) {
+  .menu {
+    display: block;
+    background-color: rgba(240, 248, 255, 0.011);
+  }
+  .block {
+    display: none;
+  }
+  .account {
+    display: none;
+    left: 70%;
+  }
+  .navbar {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(251, 251, 252);
+    z-index: 2;
+  }
+  .nav-container {
+    position: absolute;
+    margin: 5% 5%;
+    padding: 0 3%;
+    width: 90%;
+    height: 15vh;
+  }
+
+  .nav-logo {
+    position: absolute;
+    display: flex;
+    font-family: Playfair Display;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42.66px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(11, 29, 38, 1);
+  }
+  .close {
+    position: relative;
+    top: -12%;
+    left: 93%;
+    color: rgba(11, 29, 38, 1);
+  }
+  .nav-cont-menu{
+   position: relative;
+   justify-content: space-between;
+   display: flex;
+   flex-direction: row;
+   top: 25%;
+   width: 60%;
+  }
+  .nav-Equipment,
+  .nav-about,
+  .nav-blog,
+  .nav-account {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: rgba(11, 29, 38, 1);
+  }
+  .nav-account{
+    position: relative;
+    flex-direction: row;
+    gap: 3px;
+    bottom: 7%;
+    width: 20%;
+    left: 80%;
+    color: rgba(11, 29, 38, 1);
+    
+  }
+  .h1 {
+    font-family: Playfair Display;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 100px;
+    text-align: left;
+  }
+  .text-card,
+  .text-card-03 {
+    position: absolute;
+    height: 20vh;
+    font-family: Poppins;
+    font-size: 180px;
+    font-weight: 700;
+    line-height: 240px;
+    text-align: left;
+  }
+  .text-card-02 {
+    position: relative;
+    width: 30%;
+    margin-left: 3%;
+    font-family: Poppins;
+    font-size: 180px;
+    font-weight: 700;
+    line-height: 240px;
+    text-align: left;
+  }
+  .content-main-h,
+  .content-main-h2,
+  .content-main-h3 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+  }
+  .Tagline-03-02 {
+    position: absolute;
+    display: flex;
+    gap: 30px;
+  }
+  .where-03 {
+    display: none;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30vh;
+  }
+  .footer-text {
+    position: relative;
+    top: 57px;
+    height: 15vh;
+    width: 30%;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+  }
+  .copyright {
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+  }
+  .content-links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 70%;
+    height: 22vh;
+  }
+  .links-text,
+  .links-2-text {
+    width: 100%;
+    padding: 0 5%;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+  .links-2-text-h,
+  .links-text-h {
+    width: 100%;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+  }
+}
